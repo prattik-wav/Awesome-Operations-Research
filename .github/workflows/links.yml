@@ -30,5 +30,4 @@ jobs:
             --max-redirects 10
             --max-concurrency 8
             --timeout 30
-            --exclude-mail
             './**/*.md'
