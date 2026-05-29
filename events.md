@@ -39,7 +39,7 @@ See also: [Journals](journals.md), [Research Guide](research-guide.md), [Competi
 
 ## Simulation Conferences
 
-- [Winter Simulation Conference](https://meetings.informs.org/wordpress/wsc/) - Leading conference for simulation methodology and applications.
+- [Winter Simulation Conference](https://www.wintersim.org/) - Leading conference for simulation methodology and applications.
 - [ACM SIGSIM PADS](https://www.acm-sigsim.org/) - Principles of Advanced Discrete Simulation conference.
 - [SummerSim](https://www.scs.org/) - Summer Simulation Conference organized through the Society for Modeling and Simulation International.
 

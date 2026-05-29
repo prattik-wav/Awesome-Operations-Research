@@ -53,7 +53,7 @@ Major journals for Operations Research, management science, optimization, simula
 |---|---|---|---|---|
 | ACM Transactions on Modeling and Computer Simulation | ACM | Flagship computing simulation journal. | Modeling, simulation methodology, discrete-event simulation, distributed simulation, and verification. | [Website](https://dl.acm.org/journal/tomacs) |
 | Simulation Modelling Practice and Theory | Elsevier | Major applied simulation journal. | Simulation modeling, methodology, validation, software, and applications. | [Website](https://www.sciencedirect.com/journal/simulation-modelling-practice-and-theory) |
-| Winter Simulation Conference Proceedings | IEEE / ACM / INFORMS and partners | Primary annual proceedings for simulation research and practice. | Discrete-event simulation, agent-based simulation, healthcare, manufacturing, logistics, and simulation education. | [Website](https://meetings.informs.org/wordpress/wsc/) |
+| Winter Simulation Conference Proceedings | IEEE / ACM / INFORMS and partners | Primary annual proceedings for simulation research and practice. | Discrete-event simulation, agent-based simulation, healthcare, manufacturing, logistics, and simulation education. | [Website](https://www.wintersim.org/) |
 | Journal of Simulation | Taylor & Francis / Operational Research Society | Applied simulation journal. | Simulation modeling, analytics, digital twins, healthcare, manufacturing, and service systems. | [Website](https://www.tandfonline.com/journals/tjsm20) |
 | Simulation | SAGE | Long-running simulation journal. | Modeling and simulation across engineering, defense, healthcare, and complex systems. | [Website](https://journals.sagepub.com/home/sim) |
 

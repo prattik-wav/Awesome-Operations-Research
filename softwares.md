@@ -101,4 +101,4 @@ See also: [Solver Comparison](solver-comparison.md), [Modeling Languages](modeli
 - [COIN-OR Projects](https://www.coin-or.org/projects/) - Catalog of open-source optimization solvers and OR software.
 - [Hans Mittelmann Benchmarks](https://plato.asu.edu/bench.html) - Long-running benchmark pages comparing solvers across LP, MIP, conic, nonlinear, and other problem classes.
 - [JuliaOpt Solver Table](https://jump.dev/JuMP.jl/stable/installation/#Supported-solvers) - JuMP-supported solver list and installation guidance.
-- [Pyomo Solver Recipes](https://pyomo.readthedocs.io/en/stable/solving_pyomo_models.html) - Documentation for solving Pyomo models with supported solvers.
+- [Pyomo Solver Recipes](https://pyomo.readthedocs.io/en/stable/) - Documentation for solving Pyomo models with supported solvers.

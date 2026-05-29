@@ -13,21 +13,42 @@ permissions:
   contents: read
 
 jobs:
-  link-check:
+  # Internal links and heading anchors are fully under our control, so a break
+  # here should fail the build.
+  internal-links:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Check links with lychee
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Check internal links and anchors
+        run: python3 scripts/check_internal_links.py
+
+  # External links are checked for information only. Publishers (Springer,
+  # Cambridge, INFORMS, Coursera, DOI, ...) routinely return 403/404/429/redirects
+  # to automated clients, and some third-party sites have expired TLS, so this job
+  # is advisory and does not fail the build (fail: false).
+  external-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check external links (advisory)
         uses: lycheeverse/lychee-action@v2
         with:
-          # Check all Markdown files; treat 403/429 as temporary or bot-protection responses.
           args: >-
-            --verbose
             --no-progress
-            --accept 200,206,301,302,307,308,403,429,500
+            --accept 200,201,202,203,204,206,301,302,303,307,308,403,429,500,503
             --max-redirects 10
-            --max-concurrency 8
+            --max-concurrency 4
             --timeout 30
+            --retry-wait-time 5
+            --exclude-mail
             './**/*.md'
+          fail: false

@@ -24,7 +24,7 @@ See also: [Software](softwares.md), [Modeling Languages](modeling-languages.md),
 - [DEAP](https://deap.readthedocs.io/) - Evolutionary algorithms framework for genetic algorithms, genetic programming, and other metaheuristics.
 - [docplex](https://ibmdecisionoptimization.github.io/docplex-doc/) - IBM Decision Optimization modeling package for Python.
 - [gurobipy](https://www.gurobi.com/documentation/current/refman/py_python_api_overview.html) - Official Python API for Gurobi Optimizer.
-- [highspy](https://github.com/ERGO-Code/HiGHS/tree/master/highspy) - Python interface to the HiGHS optimization solver.
+- [highspy](https://pypi.org/project/highspy/) - Python interface to the HiGHS optimization solver.
 - [mip](https://www.python-mip.com/) - Python tools for modeling and solving mixed-integer linear programs.
 - [NetworkX](https://networkx.org/) - Python package for graph algorithms and network analysis.
 - [OR-Tools](https://developers.google.com/optimization) - Python APIs for CP-SAT, routing, scheduling, flows, assignment, and linear solving.

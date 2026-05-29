@@ -1,0 +1,36 @@
+# Hosts/URLs that the lychee link checker cannot reliably verify from CI.
+# Lines are regular expressions matched against each URL. Links here are
+# excluded from the (already advisory) external link check to keep its report
+# meaningful. Entries are reviewed periodically; see ROADMAP.md.
+
+# Expired or misconfigured TLS certificates (sites work in a normal browser).
+^https://apors\.org/
+^https://www\.lion-conference\.org/
+^https://www\.scienceofbetter\.org/
+^https://www\.athenasc\.com/
+
+# Connection resets / refused or HTTP/2 issues against automated clients.
+^https://www\.iise\.org/
+^https://www\.tristan-symposium\.org/
+^https://www\.acm-sigsim\.org/
+^https://fred\.stlouisfed\.org/
+^https://juliabook\.chkwon\.net/
+^https://theanalyticsshow\.com/
+^https://www\.mtl-students\.com/
+^https://ifor\.math\.ethz\.ch/
+
+# Slow academic hosts that time out in CI but are fine interactively.
+^http://comopt\.ifi\.uni-heidelberg\.de/
+^http://mistic\.heig-vd\.ch/
+^https://iew3\.technion\.ac\.il/
+^https://ie\.technion\.ac\.il/
+^https://uclouvain\.be/
+^https://wps\.prenhall\.com/
+
+# Publishers and platforms that block or rate-limit automated requests.
+^https://www\.coursera\.org/
+^https://link\.springer\.com/
+^https://www\.springer\.com/
+^https://www\.cambridge\.org/
+^https://doi\.org/
+^https://nptel\.ac\.in/

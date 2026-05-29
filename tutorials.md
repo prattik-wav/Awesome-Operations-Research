@@ -25,7 +25,7 @@ Practical tutorials for learning Operations Research software, modeling patterns
 
 ## JuMP Tutorials
 
-- [JuMP Tutorials](https://jump.dev/JuMP.jl/stable/tutorials/) - Official JuMP tutorials across linear, integer, conic, nonlinear, and advanced modeling.
+- [JuMP Tutorials](https://jump.dev/JuMP.jl/stable/) - Official JuMP tutorials across linear, integer, conic, nonlinear, and advanced modeling.
 - [JuMP Examples](https://jump.dev/JuMP.jl/stable/tutorials/getting_started/getting_started_with_JuMP/) - Official getting-started examples.
 - [MathOptInterface Documentation](https://jump.dev/MathOptInterface.jl/stable/) - Solver interface and advanced modeling documentation.
 - [PowerModels.jl Tutorials](https://lanl-ansi.github.io/PowerModels.jl/stable/) - Power systems optimization tutorials in Julia.

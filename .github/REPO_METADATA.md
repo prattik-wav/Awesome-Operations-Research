@@ -31,7 +31,7 @@ Leave blank unless GitHub Pages or a companion website is created.
 
 The exact GitHub owner/organization is not yet known, so the canonical repository
 URL is a placeholder here only. After creating the repository, set
-`https://github.com/SirMore/Awesome-Operations-Research` and update:
+`https://github.com/<owner>/Awesome-Operations-Research` and update:
 
 - `CITATION.cff` - add a `repository-code:` field with the final URL.
 - `CHANGELOG.md` - the `[1.0.0]` release-tag link.

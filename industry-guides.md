@@ -54,7 +54,7 @@ See also: [Applications](applications.md), [Careers](careers.md), [Datasets](dat
 - Problems: fleet assignment, crew pairing, aircraft routing, maintenance planning, irregular operations, gate assignment, pricing, and revenue management.
 - Methods: set partitioning, column generation, MIP, stochastic programming, dynamic programming, simulation, and robust optimization.
 - Software: [Gurobi](softwares.md#commercial-solvers), [CPLEX](softwares.md#commercial-solvers), [FICO Xpress](softwares.md#commercial-solvers), [Pyomo](libraries.md#python), [JuMP](libraries.md#julia), and custom decomposition tools.
-- Datasets: [Bureau of Transportation Statistics](https://www.transtats.bts.gov/), [OpenFlights](https://openflights.org/data.html), and public delay data.
+- Datasets: [Bureau of Transportation Statistics](https://www.transtats.bts.gov/), [OpenFlights](https://openflights.org/data.php), and public delay data.
 - Journals/conferences: [Transportation Science](journals.md#applied-or-journals), [INFORMS Annual Meeting](events.md#major-operations-research-and-management-science-conferences), and [AGIFORS](https://agifors.org/).
 - Careers: airline operations research analyst, revenue management analyst, crew scheduling analyst, network planning analyst, and operations control analyst.
 

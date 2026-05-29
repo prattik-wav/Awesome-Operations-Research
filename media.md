@@ -13,7 +13,7 @@ Videos, podcasts, recorded courses, and conference channels for Operations Resea
 ## YouTube
 
 - [INFORMS YouTube](https://www.youtube.com/user/INFORMSonline) - Talks, award videos, conference content, and analytics resources.
-- [Gurobi Optimization YouTube](https://www.youtube.com/user/GurobiOptimization) - Solver tutorials, webinars, modeling talks, and application examples.
+- [Gurobi Optimization YouTube](https://www.youtube.com/@GurobiOptimization) - Solver tutorials, webinars, modeling talks, and application examples.
 - [Google Developers Optimization](https://www.youtube.com/@GoogleDevelopers/search?query=OR-Tools) - OR-Tools and optimization talks from Google channels.
 - [SIAM YouTube](https://www.youtube.com/user/SIAMConnect) - Applied mathematics, optimization, computational science, and conference talks.
 - [MIT OpenCourseWare YouTube](https://www.youtube.com/user/MIT) - Recorded MIT courses, including probability, algorithms, analytics, and optimization-adjacent content.
@@ -28,7 +28,7 @@ Videos, podcasts, recorded courses, and conference channels for Operations Resea
 
 ## Recorded Courses
 
-- [Stanford EE364a: Convex Optimization](https://web.stanford.edu/class/ee364a/videos.html) - Recorded lectures and course materials.
+- [Stanford EE364a: Convex Optimization](https://web.stanford.edu/class/ee364a/) - Recorded lectures and course materials.
 - [MIT 15.053 Optimization Methods in Management Science](https://ocw.mit.edu/courses/15-053-optimization-methods-in-management-science-spring-2013/) - MIT OCW optimization course.
 - [MIT 15.071 The Analytics Edge](https://ocw.mit.edu/courses/15-071-the-analytics-edge-spring-2017/) - Analytics course with OR-relevant applications.
 - [Coursera Discrete Optimization](https://www.coursera.org/learn/discrete-optimization) - University of Melbourne course on discrete optimization.
@@ -37,7 +37,7 @@ Videos, podcasts, recorded courses, and conference channels for Operations Resea
 ## Conference Channels
 
 - [INFORMS Meetings](https://www.informs.org/Meetings-Conferences) - Meeting pages, recordings, and conference information.
-- [Winter Simulation Conference](https://meetings.informs.org/wordpress/wsc/) - Simulation conference talks and proceedings.
+- [Winter Simulation Conference](https://www.wintersim.org/) - Simulation conference talks and proceedings.
 - [SIAM Conferences](https://www.siam.org/conferences-events/) - Applied mathematics and optimization conference programs.
 - [CPAIOR](https://cpaior.org/) - Constraint programming, AI, and OR conference content.
 - [Mathematical Optimization Society](https://www.mathopt.org/) - ISMP and optimization community events.

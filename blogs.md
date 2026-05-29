@@ -53,7 +53,7 @@ Blogs, magazines, newsletters, Q&A sites, and resource hubs for Operations Resea
 ## Online Resource Hubs
 
 - [COIN-OR Projects](https://www.coin-or.org/projects/) - Catalog of open-source OR tools and solvers.
-- [Google OR-Tools Guides](https://developers.google.com/optimization/introduction/overview) - Practical tutorials for routing, scheduling, CP-SAT, and optimization.
+- [Google OR-Tools Guides](https://developers.google.com/optimization) - Practical tutorials for routing, scheduling, CP-SAT, and optimization.
 - [INFORMS PubsOnline](https://pubsonline.informs.org/) - Journals and magazines from INFORMS.
 - [Operations Research Stack Exchange](https://or.stackexchange.com/) - Q&A site for OR modeling, solvers, and theory.
 - [Optimization Online](https://optimization-online.org/) - Optimization preprint repository.

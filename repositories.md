@@ -67,7 +67,7 @@ Curated Operations Research repositories for solvers, modeling languages, simula
 
 | Repository | Stars | Language | Category | Description |
 |---|---:|---|---|---|
-| [miplib2017/miplib2017](https://github.com/miplib2017/miplib2017) | See GitHub | Data | MIP benchmarks | Repository for MIPLIB 2017 metadata and tooling. |
+| [MIPLIB 2017](https://miplib.zib.de/) | See GitHub | Data | MIP benchmarks | Repository for MIPLIB 2017 metadata and tooling. |
 | [power-grid-lib/pglib-opf](https://github.com/power-grid-lib/pglib-opf) | See GitHub | MATLAB/Data | OPF benchmarks | Power grid benchmark library for optimal power flow. |
 | [bstabler/TransportationNetworks](https://github.com/bstabler/TransportationNetworks) | See GitHub | Data | Transportation | Transportation networks for traffic assignment research. |
 | [MiniZinc/mzn-challenge](https://github.com/MiniZinc/mzn-challenge) | See GitHub | MiniZinc | CP benchmarks | Archive of MiniZinc Challenge instances. |

@@ -37,7 +37,7 @@ Airline OR is one of the classic success stories of large-scale optimization, co
 
 - Common methods: set partitioning, column generation, integer programming, stochastic programming, dynamic programming, simulation, and robust optimization.
 - Useful tools: [Gurobi](https://www.gurobi.com/), [IBM CPLEX](https://www.ibm.com/products/ilog-cplex-optimization-studio), [FICO Xpress](https://www.fico.com/en/products/fico-xpress-optimization), [Pyomo](https://www.pyomo.org/), [JuMP](https://jump.dev/), and [OR-Tools](https://developers.google.com/optimization).
-- Useful datasets: [Bureau of Transportation Statistics](https://www.transtats.bts.gov/), [OpenFlights](https://openflights.org/data.html), and airline delay datasets on [data.gov](https://www.data.gov/).
+- Useful datasets: [Bureau of Transportation Statistics](https://www.transtats.bts.gov/), [OpenFlights](https://openflights.org/data.php), and airline delay datasets on [data.gov](https://www.data.gov/).
 - References: [Transportation Science](https://pubsonline.informs.org/journal/trsc), [Revenue Management and Pricing](https://link.springer.com/book/10.1007/978-0-387-36064-7), and airline Edelman award papers in INFORMS publications.
 
 ## Transportation and Routing
@@ -65,7 +65,7 @@ OR is used for production planning, lot sizing, machine scheduling, maintenance 
 - Common methods: MIP, constraint programming, scheduling theory, discrete-event simulation, inventory control, and reliability models.
 - Useful tools: [CP-SAT](https://developers.google.com/optimization/cp/cp_solver), [MiniZinc](https://www.minizinc.org/), [FlexSim](https://www.flexsim.com/), [Simio](https://www.simio.com/), [OpenSolver](https://opensolver.org/), and [GAMS](https://www.gams.com/).
 - Useful benchmarks: [PSPLIB](https://www.om-db.wi.tum.de/psplib/), [Taillard scheduling instances](http://mistic.heig-vd.ch/taillard/problemes.dir/ordonnancement.dir/ordonnancement.html), and OR-Library scheduling data.
-- References: [Scheduling: Theory, Algorithms, and Systems](https://link.springer.com/book/10.1007/978-3-319-26580-3), [Winter Simulation Conference](https://meetings.informs.org/wordpress/wsc/), and [IISE](https://www.iise.org/).
+- References: [Scheduling: Theory, Algorithms, and Systems](https://link.springer.com/book/10.1007/978-3-319-26580-3), [Winter Simulation Conference](https://www.wintersim.org/), and [IISE](https://www.iise.org/).
 
 ## Retail
 
@@ -116,7 +116,7 @@ Defense OR covers logistics, wargaming, readiness, maintenance, force structure,
 - Common methods: simulation, game theory, stochastic models, optimization under uncertainty, search theory, and multi-objective optimization.
 - Useful resources: [Military Operations Research Society](https://www.mors.org/), [INFORMS](https://www.informs.org/), and public defense research repositories.
 - Useful tools: simulation platforms, agent-based simulation, MIP solvers, network optimization tools, and decision analysis frameworks.
-- References: [Naval Research Logistics](https://onlinelibrary.wiley.com/journal/15206750), [MORS](https://www.mors.org/), and [Winter Simulation Conference](https://meetings.informs.org/wordpress/wsc/).
+- References: [Naval Research Logistics](https://onlinelibrary.wiley.com/journal/15206750), [MORS](https://www.mors.org/), and [Winter Simulation Conference](https://www.wintersim.org/).
 
 ## Telecommunications
 
