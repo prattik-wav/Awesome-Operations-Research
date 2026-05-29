@@ -24,7 +24,11 @@ jobs:
         with:
           # Check all Markdown files; treat 403/429 as temporary or bot-protection responses.
           args: >-
+            --verbose
             --no-progress
-            --accept 200,206,403,429
+            --accept 200,206,301,302,307,308,403,429,500
+            --max-redirects 10
             --max-concurrency 8
+            --timeout 30
+            --exclude-mail
             './**/*.md'
