@@ -2,10 +2,24 @@
 
 Thank you for helping improve Awesome Operations Research. The goal is a concise, useful, well-maintained list for students, researchers, instructors, practitioners, and software developers.
 
-This repository is released under [CC0 1.0 Universal](LICENSE).
+This repository is released under [CC0 1.0 Universal](LICENSE). Maintainers are
+listed in [MAINTAINERS.md](MAINTAINERS.md).
+
+## Good First Contributions
+
+New here? These are easy, high-value ways to start:
+
+- Fix a broken or moved link (see the [broken-link issue template](.github/ISSUE_TEMPLATE/broken_link.md)).
+- Add one well-known resource to the most specific file, following the entry format below.
+- Improve a description to be more concise and factual.
+- Add a missing official link (publisher, project, or DOI) to an existing entry.
+
+Issues labeled **`good first issue`** are reserved for newcomers. Pull requests of
+any size are welcome — even a single corrected link helps.
 
 ## Contents
 
+- [Good First Contributions](#good-first-contributions)
 - [How to Suggest a Resource](#how-to-suggest-a-resource)
 - [Quality Criteria](#quality-criteria)
 - [Link Requirements](#link-requirements)

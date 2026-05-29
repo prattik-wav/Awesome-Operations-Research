@@ -8,3 +8,5 @@
 - Comprehensive curated guides for software, solvers, books, courses, papers, datasets, journals, conferences, careers, teaching, research, and industry applications.
 - Start-here navigation, method guides, industry guides, career guide, teaching guide, research guide, case studies, and knowledge maps.
 - GitHub issue templates, pull request template, link-check workflow, citation metadata, security policy, and maintenance scripts.
+
+[1.0.0]: https://github.com/SirMore/Awesome-Operations-Research/releases/tag/v1.0.0

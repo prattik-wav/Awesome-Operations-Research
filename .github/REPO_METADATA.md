@@ -27,12 +27,9 @@ A curated list of awesome Operations Research frameworks, solvers, libraries, so
 
 Leave blank unless GitHub Pages or a companion website is created.
 
-## URLs to Set After Creation
+## Canonical URLs
 
-The exact GitHub owner/organization is not yet known, so the canonical repository
-URL is a placeholder here only. After creating the repository, set
-`https://github.com/<owner>/Awesome-Operations-Research` and update:
-
-- `CITATION.cff` - add a `repository-code:` field with the final URL.
-- `CHANGELOG.md` - the `[1.0.0]` release-tag link.
-- `.github/ISSUE_TEMPLATE/config.yml` - any contact links that should point to the repo.
+The repository is published at
+`https://github.com/SirMore/Awesome-Operations-Research`. This URL is already set in
+`CITATION.cff` (`url` and `repository-code`) and `CHANGELOG.md` (the `[1.0.0]`
+release-tag link). Update these if the repository is ever moved or renamed.

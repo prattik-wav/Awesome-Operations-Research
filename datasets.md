@@ -1,6 +1,6 @@
 # Datasets and Benchmarks
 
-Benchmark instances, data libraries, and public datasets for testing Operations Research models, algorithms, and software.
+Benchmark instances, data libraries, and public datasets for testing Operations Research models, algorithms, and software. For how to use these in reproducible computational experiments (seeds, environments, solver settings, archiving), see the [Research Guide](research-guide.md#reproducible-or-research).
 
 See also: [Methodologies](methodologies.md), [Research Guide](research-guide.md#benchmarking-and-computational-experiments), [Teaching](teaching.md#teaching-datasets), and [Case Studies](case-studies.md).
 
