@@ -44,6 +44,13 @@ Practical tutorials for learning Operations Research software, modeling patterns
 - [IBM Decision Optimization Modeling for Python](https://ibmdecisionoptimization.github.io/docplex-doc/) - Official DOcplex documentation.
 - [IBM CP Optimizer Scheduling Examples](https://www.ibm.com/docs/en/icos) - Official constraint programming and scheduling examples.
 
+## HiGHS Tutorials
+
+- [HiGHS Python Interface Documentation](https://ergo-code.github.io/HiGHS/dev/interfaces/python/) - Official beginner guide to solving LP and MIP models using the HiGHS Python API.
+- [HiGHS Getting Started](https://ergo-code.github.io/HiGHS/dev/get-started/) - Official introduction to HiGHS installation and first steps.
+- [HiGHS C++ API Documentation](https://ergo-code.github.io/HiGHS/dev/interfaces/cpp/) - Official C++ interface documentation for HiGHS.
+- [HiGHS GitHub Repository](https://github.com/ERGO-Code/HiGHS) - Source code, examples, and issue tracker for HiGHS.
+
 ## Simulation Tutorials
 
 - [SimPy Tutorial](https://simpy.readthedocs.io/en/latest/simpy_intro/index.html) - Official SimPy introduction.
