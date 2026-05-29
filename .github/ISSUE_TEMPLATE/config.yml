@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Operations Research Stack Exchange
+    url: https://or.stackexchange.com/
+    about: Ask modeling, solver, and theory questions here rather than in repository issues.
+  - name: INFORMS
+    url: https://www.informs.org/
+    about: Professional society for Operations Research and analytics.

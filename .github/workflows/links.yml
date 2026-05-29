@@ -1,0 +1,30 @@
+name: Check Markdown links
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    # Run weekly to catch links that rot over time.
+    - cron: "0 6 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check links with lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # Check all Markdown files; treat 403/429 as temporary or bot-protection responses.
+          args: >-
+            --no-progress
+            --accept 200,206,403,429
+            --max-concurrency 8
+            './**/*.md'
