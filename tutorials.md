@@ -8,6 +8,7 @@ Practical tutorials for learning Operations Research software, modeling patterns
 - [JuMP Tutorials](#jump-tutorials)
 - [Gurobi Tutorials](#gurobi-tutorials)
 - [CPLEX Tutorials](#cplex-tutorials)
+- [HiGHS Tutorials](#highs-tutorials)
 - [Simulation Tutorials](#simulation-tutorials)
 - [Supply Chain Tutorials](#supply-chain-tutorials)
 - [Scheduling Tutorials](#scheduling-tutorials)
