@@ -8,6 +8,7 @@ Practical tutorials for learning Operations Research software, modeling patterns
 - [JuMP Tutorials](#jump-tutorials)
 - [Gurobi Tutorials](#gurobi-tutorials)
 - [CPLEX Tutorials](#cplex-tutorials)
+- [HiGHS Tutorials](#highs-tutorials)
 - [Simulation Tutorials](#simulation-tutorials)
 - [Supply Chain Tutorials](#supply-chain-tutorials)
 - [Scheduling Tutorials](#scheduling-tutorials)
@@ -43,6 +44,13 @@ Practical tutorials for learning Operations Research software, modeling patterns
 - [DOcplex Examples](https://github.com/IBMDecisionOptimization/docplex-examples) - Official Python modeling examples for CPLEX.
 - [IBM Decision Optimization Modeling for Python](https://ibmdecisionoptimization.github.io/docplex-doc/) - Official DOcplex documentation.
 - [IBM CP Optimizer Scheduling Examples](https://www.ibm.com/docs/en/icos) - Official constraint programming and scheduling examples.
+
+## HiGHS Tutorials
+
+- [HiGHS Python Interface Documentation](https://ergo-code.github.io/HiGHS/dev/interfaces/python/) - Official beginner guide to solving LP and MIP models using the HiGHS Python API.
+- [HiGHS Getting Started](https://ergo-code.github.io/HiGHS/dev/get-started/) - Official introduction to HiGHS installation and first steps.
+- [HiGHS C++ API Documentation](https://ergo-code.github.io/HiGHS/dev/interfaces/cpp/) - Official C++ interface documentation for HiGHS.
+- [HiGHS GitHub Repository](https://github.com/ERGO-Code/HiGHS) - Source code, examples, and issue tracker for HiGHS.
 
 ## Simulation Tutorials
 
