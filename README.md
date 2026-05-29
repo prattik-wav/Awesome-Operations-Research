@@ -172,7 +172,7 @@ Resources may be removed or marked as deprecated when:
 - The description is promotional, misleading, or no longer accurate.
 - The resource has been superseded by an official successor.
 
-Lightweight maintenance scripts are available in [scripts/](scripts/) for internal link checks and resource counts.
+The internal link checker (`scripts/check_internal_links.py`) runs automatically in CI on every push and weekly; `scripts/count_resources.py` is a manual helper for refreshing the (rounded) statistics above.
 
 ## Inspired By
 

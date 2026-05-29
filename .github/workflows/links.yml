@@ -29,6 +29,20 @@ jobs:
       - name: Check internal links and anchors
         run: python3 scripts/check_internal_links.py
 
+      # Advisory: print the current resource/category counts to the run log and
+      # the job summary. Does not edit files or fail the build.
+      - name: Report resource counts (advisory)
+        if: ${{ always() }}
+        run: |
+          python3 scripts/count_resources.py | tee counts.json
+          {
+            echo "### Repository resource counts"
+            echo ""
+            echo '```json'
+            cat counts.json
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
   # External links are checked for information only. Publishers (Springer,
   # Cambridge, INFORMS, Coursera, DOI, ...) routinely return 403/404/429/redirects
   # to automated clients, and some third-party sites have expired TLS, so this job

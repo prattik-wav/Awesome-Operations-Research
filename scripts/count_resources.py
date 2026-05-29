@@ -33,6 +33,7 @@ def main() -> None:
         "CHANGELOG.md",
         "CODE_OF_CONDUCT.md",
         "CONTRIBUTING.md",
+        "MAINTAINERS.md",
         "README.md",
         "ROADMAP.md",
         "SECURITY.md",
