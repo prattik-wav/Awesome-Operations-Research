@@ -1,162 +1,138 @@
+# Books
 
-The following is a list of free and/or open source books on operations research, machine learning, statistics, data mining, etc.
+Books and legal open texts for Operations Research, mathematical optimization, simulation, stochastic systems, analytics, and related foundations. Prefer official publisher, author, institutional, or open-access links.
 
-## Operations Research
+See also: [Best Of](best-of.md), [Courses](courses.md), [Teaching](teaching.md), [Methodologies](methodologies.md), and [Learning Paths](learning-paths.md).
 
-### General Intro to OR [here](http://www.maximalsoftware.com/resources/books/):
+## Contents
 
-* [Operations Research: Applications and Algorithms](https://itslearningakarmazyan.files.wordpress.com/2015/09/operation-research-aplications-and-algorithms.pdf) by Wayne L. Winston
-* [Introduction to Operations Research](https://www.amazon.com/dp/0073017795)  by Frederick S. Hillier, Gerald J. Lieberman, Frederick Hillier, Gerald Lieberman.
-* [Applied Mathematical Programming](http://web.mit.edu/15.053/www/AMP.htm) - Stephen P. Bradley, Arnoldo C. Hax, and Thomas L. Magnanti
-* [Schaum's Outline of Operations Research](https://www.google.com/books/edition/Schaum_s_Outline_of_Operations_Research/16sK1voVookC?hl=en&gbpv=1&printsec=frontcover)
-* 
+- [General Operations Research](#general-operations-research)
+- [Modeling and Mathematical Programming](#modeling-and-mathematical-programming)
+- [Linear and Integer Programming](#linear-and-integer-programming)
+- [Network Flows and Combinatorial Optimization](#network-flows-and-combinatorial-optimization)
+- [Nonlinear and Convex Optimization](#nonlinear-and-convex-optimization)
+- [Stochastic Programming and Robust Optimization](#stochastic-programming-and-robust-optimization)
+- [Simulation](#simulation)
+- [Queueing Theory](#queueing-theory)
+- [Inventory and Supply Chain](#inventory-and-supply-chain)
+- [Scheduling](#scheduling)
+- [Decision Analysis and Game Theory](#decision-analysis-and-game-theory)
+- [Metaheuristics and Approximation](#metaheuristics-and-approximation)
+- [Applied OR and Analytics](#applied-or-and-analytics)
+- [Free Online Books and Lecture Notes](#free-online-books-and-lecture-notes)
 
+## General Operations Research
 
+- [Introduction to Operations Research](https://www.mheducation.com/highered/product/introduction-operations-research-hillier-lieberman/M9781260238310.html) - Frederick S. Hillier and Gerald J. Lieberman. Classic broad OR textbook.
+- [Operations Research: An Introduction](https://www.pearson.com/en-us/subject-catalog/p/operations-research-an-introduction/P200000003221) - Hamdy A. Taha. Widely used introductory OR text.
+- [Operations Research: Applications and Algorithms](https://www.cengage.com/c/operations-research-applications-and-algorithms-4e-winston/) - Wayne L. Winston. Applications-oriented OR textbook.
+- [Operations Research: Principles and Practice](https://www.cambridge.org/highereducation/books/operations-research/4DA8E52FA94E7A776708221B271062B6) - Ravindran, Phillips, and Solberg. General textbook with modeling and algorithms.
+- [Deterministic Operations Research](https://www.wiley.com/en-us/Deterministic+Operations+Research%3A+Models+and+Methods+in+Linear+Optimization-p-9780470484517) - David J. Rader. Linear optimization models and methods for OR.
 
-### Modeling:
+## Modeling and Mathematical Programming
 
-* [Model Building in Mathematical Programming](http://pourghaderi.com/wp-content/uploads/2018/12/Wiliams-Model-Building-in-Mathematical-Programming-5th-2013.pdf) by H. P. Williams
-* [Applied Integer Programming: Modeling and Solution](https://onlinelibrary.wiley.com/doi/book/10.1002/9781118166000) by D. Chen, R.G. Batson, Y. Dang. John Wiley & Sons, 2009.
-* [MOSEK Modeling Cookbook](https://docs.mosek.com/modeling-cookbook/index.html) - How to formulate and reformulate conic optimization problems (convex QP, SOCP, SDP, Exponential Cone, Power Cone, and mixed integer). Requires some "mathematical maturity" to understand. This is very helpful for users of CVX, CVXPY, CVXR, YALMIP. Note, this is complementary to H.P. Williams "Model building in mathematical programming", because Williams doesn't cover any conic optimization material.
-* [THE AMPL BOOK](https://ampl.com/resources/the-ampl-book/)
-* [VBA for Modelers, Developing Decision Support Systems with Microsoft Excel](http://www.amazon.com/exec/obidos/ASIN/0534380123/maximal0f) by S. Christian Albright
-* [Practical Management Science: Spreadsheet Modeling and Applications](http://www.amazon.com/exec/obidos/ASIN/0534371353/maximal0f) by Wayne L. Winston, [S. Christian Albright](https://www.gettextbooks.com/author/Albright_S_Christian/?author=Christian+Albright), Mark Nathan Broadie
-* 
+- [AIMMS Optimization Modeling](https://documentation.aimms.com/) - Official AIMMS documentation and modeling examples.
+- [Applied Mathematical Programming](http://web.mit.edu/15.053/www/AMP.htm) - Bradley, Hax, and Magnanti. Classic MIT text available legally online.
+- [Model Building in Mathematical Programming](https://www.wiley.com/en-us/Model+Building+in+Mathematical+Programming%2C+5th+Edition-p-9781118443330) - H. Paul Williams. Essential modeling reference.
+- [MOSEK Modeling Cookbook](https://docs.mosek.com/modeling-cookbook/index.html) - Practical guide to conic, convex, and mixed-integer formulations.
+- [The AMPL Book](https://ampl.com/resources/the-ampl-book/) - Fourer, Gay, and Kernighan. Algebraic modeling with AMPL.
+- [Julia Programming for Operations Research](https://juliabook.chkwon.net/) - Changhyun Kwon. Open book for OR modeling and computation in Julia.
 
+## Linear and Integer Programming
 
+- [A First Course in Linear Optimization](https://github.com/jon77lee/JLee_LinearOptimizationBook) - Jon Lee. Open linear optimization textbook.
+- [50 Years of Integer Programming 1958-2008](https://link.springer.com/book/10.1007/978-3-540-68279-0) - Junger, Liebling, Naddef, Nemhauser, Pulleyblank, Reinelt, and Rinaldi. Historical and technical essays.
+- [Integer and Combinatorial Optimization](https://onlinelibrary.wiley.com/doi/book/10.1002/9781118627372) - Nemhauser and Wolsey. Standard advanced reference.
+- [Integer Programming](https://www.wiley.com/en-us/Integer+Programming%2C+2nd+Edition-p-9781119606536) - Laurence A. Wolsey. Compact graduate-level reference.
+- [Integer Programming](https://link.springer.com/book/10.1007/978-3-319-11008-0) - Conforti, Cornuejols, and Zambelli. Modern graduate text.
+- [Introduction to Linear Optimization](https://www.athenasc.com/linoptbook.html) - Bertsimas and Tsitsiklis. Foundational LP and network optimization text.
+- [Linear Programming](https://www.amazon.com/Linear-Programming-Books-Mathematical-Sciences/dp/0716715872) - Vasek Chvatal. Classic concise LP text.
+- [Linear Programming and Network Flows](https://www.wiley.com/en-us/Linear+Programming+and+Network+Flows%2C+4th+Edition-p-9780470462720) - Bazaraa, Jarvis, and Sherali. LP and network flow algorithms.
+- [Linear Programming: Foundations and Extensions](https://vanderbei.princeton.edu/LPbook/) - Robert J. Vanderbei. LP textbook with official resources.
+- [Optimization over Integers](https://www.dynamic-ideas.com/books/optimization-over-integers) - Bertsimas and Weismantel. Integer optimization theory and algorithms.
+- [Theory of Linear and Integer Programming](https://www.wiley.com/en-us/Theory+of+Linear+and+Integer+Programming-p-9780471982326) - Alexander Schrijver. Deep theoretical reference.
 
+## Network Flows and Combinatorial Optimization
 
+- [Combinatorial Optimization](https://link.springer.com/book/10.1007/978-3-662-45586-8) - Korte and Vygen. Comprehensive algorithms text.
+- [Combinatorial Optimization: Algorithms and Complexity](https://www.amazon.com/Combinatorial-Optimization-Algorithms-Complexity-Papadimitriou/dp/0486402584) - Papadimitriou and Steiglitz. Classic complexity-focused text.
+- [Combinatorial Optimization: Polyhedra and Efficiency](https://link.springer.com/book/10.1007/978-3-662-45586-8) - Alexander Schrijver. Monumental three-volume reference.
+- [Network Flow Algorithms](https://www.cambridge.org/core/books/network-flow-algorithms/9B89E4F72B9C0C1F6A836D60D5EBEAD2) - David P. Williamson. Modern network flow algorithms text.
+- [Network Flows: Theory, Algorithms, and Applications](https://mitmgmtfaculty.mit.edu/jorlin/network-flows/) - Ahuja, Magnanti, and Orlin. Standard reference for network flows.
+- [The Traveling Salesman Problem](https://press.princeton.edu/books/paperback/9780691163529/the-traveling-salesman-problem) - Applegate, Bixby, Chvatal, and Cook. TSP theory, computation, and practice.
 
- 
+## Nonlinear and Convex Optimization
 
+- [Algorithms for Optimization](https://algorithmsbook.com/optimization/) - Kochenderfer and Wheeler. Open optimization algorithms book.
+- [Convex Optimization](https://web.stanford.edu/~boyd/cvxbook/) - Stephen Boyd and Lieven Vandenberghe. Standard open convex optimization text.
+- [Convex Optimization Theory](https://web.mit.edu/dimitrib/www/Convex_Theory_Entire_Book.pdf) - Dimitri P. Bertsekas. Open convex optimization theory text.
+- [Introduction to Nonlinear Optimization](https://epubs.siam.org/doi/book/10.1137/1.9781611973655) - Amir Beck. SIAM text on nonlinear optimization.
+- [Lectures on Modern Convex Optimization](https://epubs.siam.org/doi/book/10.1137/1.9780898718829) - Ben-Tal and Nemirovski. Advanced convex optimization.
+- [Numerical Optimization](https://link.springer.com/book/10.1007/978-0-387-40065-5) - Nocedal and Wright. Standard nonlinear optimization reference.
+- [Practical Optimization](https://epubs.siam.org/doi/book/10.1137/1.9781611975604) - Philip E. Gill, Walter Murray, and Margaret H. Wright. Classic numerical optimization text.
 
-### Graph Theory and Algorithms:
+## Stochastic Programming and Robust Optimization
 
-* [Network flows](http://cs.yazd.ac.ir/hasheminezhad/STSCS4R1.pdf) R. K. Ahuja, T. L. Magnanti, and J. B. Orlin. 
-* [Network Flows: Theory, Algorithms, and Applications](http://cs.yazd.ac.ir/hasheminezhad/STSCS4R1.pdf) - Book by Ahuja, [Magnanti, Orlin](https://mitmgmtfaculty.mit.edu/jorlin/network-flows/)
+- [Introduction to Stochastic Programming](https://link.springer.com/book/10.1007/978-1-4614-0237-4) - Birge and Louveaux. Standard stochastic programming text.
+- [Lectures on Stochastic Programming](https://epubs.siam.org/doi/book/10.1137/1.9780898718751) - Shapiro, Dentcheva, and Ruszczynski. Modeling and theory reference.
+- [Modeling with Stochastic Programming](https://link.springer.com/book/10.1007/978-0-387-87817-1) - King and Wallace. Practical modeling view of stochastic programming.
+- [Robust Discrete Optimization and Its Applications](https://link.springer.com/book/10.1007/978-1-4757-2620-6) - Kouvelis and Yu. Foundational robust discrete optimization text.
+- [Robust Optimization](https://press.princeton.edu/books/hardcover/9780691143682/robust-optimization) - Ben-Tal, El Ghaoui, and Nemirovski. Core robust optimization reference.
 
+## Simulation
 
-### Linear Programming:
+- [Discrete-Event System Simulation](https://www.pearson.com/en-us/subject-catalog/p/discrete-event-system-simulation/P200000003279) - Banks, Carson, Nelson, and Nicol. Standard discrete-event simulation textbook.
+- [Simulation](https://www.elsevier.com/books/simulation/ross/978-0-12-415825-2) - Sheldon M. Ross. Simulation modeling and analysis.
+- [Simulation Modeling and Analysis](https://www.mheducation.com/highered/product/simulation-modeling-analysis-law/M9781264268794.html) - Averill M. Law. Widely used simulation reference.
+- [The Art of Computer Systems Performance Analysis](https://www.wiley.com/en-us/The+Art+of+Computer+Systems+Performance+Analysis%3A+Techniques+for+Experimental+Design%2C+Measurement%2C+Simulation%2C+and+Modeling-p-9780471503361) - Raj Jain. Performance analysis, experiments, and simulation.
 
-* [Linear Programming](https://www.amazon.com/Linear-Programming-Books-Mathematical-Sciences/dp/0716715872) by Vasek Chvatal. Other important resources [here](https://home.cs.colorado.edu/~hal/565notes.pdf)
-* [Linear Programming -- A Concise Introduction](http://www.math.ucla.edu/~tom/LP.pdf) by Thomas S. Ferguson 
-* [Introduction to Linear Optimization](http://www.athenasc.com/linoptbook.html) [D. Bertsimas](https://www.mit.edu/~dbertsim/books.html) and J. N. Tsitsiklis. 
-* [Linear Programming and Extensions](https://www.rand.org/content/dam/rand/pubs/reports/2007/R366part1.pdf) - G.B. Dantzig. Reprinted in 1998 by Princeton Press.
-* [Linear Programming 1: Introduction](https://www.springer.com/gp/book/9780387948331) - G.B. Dantzig and M.N. Thapa, Springer, 1997 and [Linear Programming 2: Theory and Extension](https://www.springer.com/gp/book/9780387986135), Spinger, 2003. Linear Programming 2, especially, is hard-core. I think these books supersede and render G.B. Dantzig "Linear Programming and Extensions" to be of historical interest only.
-* [Linear Programming and Network Flows](http://cs.yazd.ac.ir/hasheminezhad/Bazaraa-LP[430912].pdf) Hanif D. Sherali, John J. Jarvis, and M. S. Bazaraa
-* [Linear Programming Foundations and Extensions](https://vanderbei.princeton.edu/LPbook/) Vanderbei, Robert J.
-* [Deterministic Operations Research: Models and Methods in Linear Optimization](https://www.wiley.com/en-us/Deterministic+Operations+Research%3A+Models+and+Methods+in+Linear+Optimization-p-9780470484517) Book by David J. Rader
-* [A First Course in Linear Optimization](https://github.com/jon77lee/JLee_LinearOptimizationBook/blob/master/JLee.3.0.pdf) Jon Lee
-* [Theory of Linear and Integer Programming](https://www.wiley.com/en-us/Theory+of+Linear+and+Integer+Programming-p-9780471982326) Alexander Schrijver
-* [Understanding and Using Linear Programming](https://www.springer.com/gp/book/9783540306979) Matousek, Jiri, Gärtner, Bernd
-* [Linear Optimization and Extensions: Theory and Algorithms](https://www.amazon.com/Linear-Optimization-Extensions-Theory-Algorithms/dp/0139152652) Shu-Cherng Fang, Sarat Puthenpura 
-* [Linear Programming with MATLAB](https://www.amazon.com/dp/0898716438)
-* [Linear Programming: Methods and Applications](https://www.amazon.com/dp/048643284X)
-* [Linear Programming: An Introduction to Finite Improvement Algorithms](https://www.amazon.com/Linear-Programming-Introduction-Improvement-Mathematics/dp/0486493768) Book by Daniel Solow
-* 
-* 
+## Queueing Theory
 
+- [Fundamentals of Queueing Theory](https://www.wiley.com/en-us/Fundamentals+of+Queueing+Theory%2C+5th+Edition-p-9781118625651) - Gross, Shortle, Thompson, and Harris. Standard queueing textbook.
+- [Introduction to Queueing Theory](https://link.springer.com/book/10.1007/978-3-319-30599-8) - Robert B. Cooper. Introductory queueing reference.
+- [Queueing Systems, Volume 1: Theory](https://onlinelibrary.wiley.com/doi/book/10.1002/9780470316849) - Leonard Kleinrock. Classic queueing systems text.
+- [Stochastic Models](https://www.elsevier.com/books/stochastic-models/ross/978-0-12-407948-9) - Sheldon M. Ross. Stochastic processes and applied probability models.
 
-### Integer Programming:
+## Inventory and Supply Chain
 
-* [50 Years of Integer Programming](https://www.springer.com/gp/book/9783540682745) by Juenger, Liebling, Naddef, Nemhauser, Pulleyblank, Reinelt, Rinaldi, Wolsey
-* [Optimization over Integers](https://www.dynamic-ideas.com/books/x0g7bsm2nvnl6j7ebqodcrhsvlgbm7) - D. Bertsimas and R. Weismantel. Belmont, MA: Dynamic Ideas, 2005.
-* [Column Generation](https://www.springer.com/gp/book/9780387254852) - G. Desaulniers, J. Desrosiers, and M. M. Solomon. New York: Springer, 2005.
-* [Integer and Combinatorial Optimization](https://onlinelibrary.wiley.com/doi/book/10.1002/9781118627372) - G. Nemhauser, and L. Wolsey. Wiley, 1988.
-* [Integer programming](https://www.wiley.com/en-us/Integer+Programming-p-9780471283669) L. Wolsey. , John Wiley & Sons Canada, 1998
-* [Integer Programming](https://link.springer.com/book/10.1007%2F978-3-319-11008-0) M. Conforti, G. Cornuéjols, G. Zambelli.  GTM 271, Springer, 2014.
-* [Decomposition Techniques in Mathematical Programming](https://www.springer.com/gp/book/9783540276852) Conejo, A.J., Castillo, E., Minguez, R., Garcia-Bertrand, R.
-* [Theory of Linear and Integer Programming](https://www.wiley.com/en-us/Theory+of+Linear+and+Integer+Programming-p-9780471982326) Alexander Schrijver
-* 
+- [Designing and Managing the Supply Chain](https://www.mheducation.com/highered/product/designing-managing-supply-chain-simchi-levi-kaminsky/M9780073341521.html) - Simchi-Levi, Kaminsky, and Simchi-Levi. Supply chain design and analytics.
+- [Foundations of Inventory Management](https://www.mheducation.com/highered/product/foundations-inventory-management-zipkin/M9780256113792.html) - Paul Zipkin. Inventory theory and practice.
+- [Inventory Control](https://link.springer.com/book/10.1007/978-1-4419-9230-4) - Sven Axsater. Inventory models and control.
+- [Supply Chain Management: Strategy, Planning, and Operation](https://www.pearson.com/en-us/subject-catalog/p/supply-chain-management-strategy-planning-and-operation/P200000003508) - Sunil Chopra. Broad supply chain management reference.
 
+## Scheduling
 
-### Convex Optimization:
-* [Convex Optimization](https://web.stanford.edu/~boyd/cvxbook/) - Stephen Boyd and Lieven Vandenberghe. Also serves as good background for non-convex optimization.
-* [Lectures on Modern Convex Optimization](https://www2.isye.gatech.edu/~nemirovs/LMCO_LN.pdf), 2013 (most recent version) A. Ben-Tal, A. Nemirovski. Very advanced mathematically.
-* [Proximal Algorithms](https://web.stanford.edu/~boyd/papers/pdf/prox_algs.pdf) now Foundations and Trends in Optimization, 2013. [Errata](https://web.stanford.edu/~boyd/papers/prox_algs/errata.pdf). Mostly algorithms, a few examples N. Parikh and S. Boyd.
-* [An Introduction to Matrix Concentration Inequalities](https://arxiv.org/pdf/1501.01571.pdf), now Foundations and Trends in Optimization, 2014. Goes beyond Ben-Tal and Nemirovski in such areas as operator convexity and matrix (quantum) relative entropy - J. Tropp
-* [Chordal Graphs and Semidefinite Optimization](http://www.seas.ucla.edu/~vandenbe/publications/chordalsdp.pdf), now Foundations and Trends in Optimization, 2015. Advanced material in Semidefinite Optimization (Programming), i.e., SDP. - L. Vandenberghe and M. Andersen. 
-* [Lectures on Modern Convex Optimization](https://www2.isye.gatech.edu/~nemirovs/lmco_run.pdf)  A. Ben-Tal, A. Nemirovski
+- [Planning and Scheduling in Manufacturing and Services](https://link.springer.com/book/10.1007/b106372) - Michael Pinedo. Scheduling applications and models.
+- [Scheduling: Theory, Algorithms, and Systems](https://link.springer.com/book/10.1007/978-3-319-26580-3) - Michael Pinedo. Comprehensive scheduling reference.
+- [The Constraint Programming Handbook](https://www.sciencedirect.com/book/9780444527264/handbook-of-constraint-programming) - Rossi, van Beek, and Walsh. Broad CP reference with scheduling applications.
 
+## Decision Analysis and Game Theory
 
+- [Algorithmic Game Theory](https://www.cambridge.org/core/books/algorithmic-game-theory/2C0B05C0F8B1B40E523C0D8286C70B92) - Nisan, Roughgarden, Tardos, and Vazirani. Open access algorithmic game theory text.
+- [Decision Analysis for Management Judgment](https://www.wiley.com/en-us/Decision+Analysis+for+Management+Judgment%2C+5th+Edition-p-9781118740736) - Goodwin and Wright. Practical decision analysis reference.
+- [Dynamic Programming and Optimal Control](https://www.athenasc.com/dpbook.html) - Dimitri P. Bertsekas. Core dynamic programming and optimal control text.
+- [Markov Decision Processes](https://onlinelibrary.wiley.com/doi/book/10.1002/9780470316887) - Martin L. Puterman. Standard MDP reference.
 
-### Nonlinear Optimization:
+## Metaheuristics and Approximation
 
-* [Numerical Optimization](https://www.csie.ntu.edu.tw/~r97002/temp/num_optimization.pdf). Springer, 2006. - J. Nocedal, S. Wright. 
-* [Introduction to nonlinear optimization: Theory, algorithms, and applications with MATLAB](https://epubs.siam.org/doi/book/10.1137/1.9781611973655?mobileUi=0) - A. Beck. SIAM, 2014
-* [Linear and Nonlinear Programming](https://eng.uok.ac.ir/mfathi/Courses/Advanced%20Eng%20Math/Linear%20and%20Nonlinear%20Programming.pdf) by David Luenberger and Yinyu Ye 
-* [Linear Programming and Generalizations: A Problem-based Introduction with Spreadsheets](https://www.springer.com/gp/book/9781441964908) Book by Eric V. Denardo
-* [Optimization for Decision Making: Linear and Nonlinear Models](http://www-personal.umich.edu/~murty/books/opti_model/) by [Katta Murty](http://www-personal.umich.edu/~murty/)
-* [Linear and Nonlinear Optimization](https://www.springer.com/gp/book/9781493970537) Book by Mukund Narain Thapa and Richard W. Cottle
-* 
-* 
+- [Essentials of Metaheuristics](https://cs.gmu.edu/~sean/book/metaheuristics/) - Sean Luke. Open textbook on metaheuristics.
+- [Handbook of Approximation Algorithms and Metaheuristics](https://www.taylorfrancis.com/books/edit/10.1201/9781420010749/handbook-approximation-algorithms-metaheuristics-teofilo-gonzalez) - Teofilo Gonzalez, editor. Broad reference.
+- [Handbook of Metaheuristics](https://link.springer.com/book/10.1007/978-1-4419-1665-5) - Gendreau and Potvin, editors. Comprehensive metaheuristics reference.
+- [The Design of Approximation Algorithms](https://www.designofapproxalgs.com/) - Williamson and Shmoys. Open book on approximation algorithms.
 
+## Applied OR and Analytics
 
-### Geometric Programming
-* [A tutorial on geometric programming, Optimization and Engineering](https://web.stanford.edu/~boyd/papers/pdf/gp_tutorial.pdf), 2007. A tutorial journal article covering geometric programming and generalizations and extensions, starting from basics and proceeding to more advanced material. S. Boyd, Seung-Jean Kim, L. Vandenberghe, and A. Hassibi. 
-* 
+- [Analytics, Data Science, and Artificial Intelligence](https://www.pearson.com/en-us/subject-catalog/p/analytics-data-science-artificial-intelligence/P200000003454) - Sharda, Delen, and Turban. Decision analytics and applied analytics.
+- [Data, Models, and Decisions](https://www.dynamic-ideas.com/books/data-models-and-decisions) - Bertsimas and Freund. Optimization and analytics for decision-making.
+- [Operations Research and Health Care](https://link.springer.com/book/10.1007/978-1-4615-0807-3) - Brandeau, Sainfort, and Pierskalla, editors. Healthcare OR applications.
+- [Revenue Management and Pricing](https://link.springer.com/book/10.1007/978-0-387-36064-7) - Talluri and van Ryzin. Core revenue management reference.
 
+## Free Online Books and Lecture Notes
 
-### Combinatorial Optimization:
-* [Combinatorial Optimization - Polyhedra and Efficiency](https://www.springer.com/gp/book/9783540443896). A. Schrijver. Springer, 2003
-* [Combinatorial Optimization: Algorithms and Complexity](https://www.amazon.com/dp/0486402584) by Papadimitriou and Steiglitz.
-* [Combinatorial Optimization](https://www.amazon.com/dp/047155894X) by Cook, Cunningham, Pulleyblank, Schrijver
-* 
-
-
-### Stochastic Optimization:
-* [Modeling with Stochastic Programming](https://link.springer.com/book/10.1007/978-0-387-87817-1). Springer, 2012. A.J. King, and S.W. Wallace. 
-* [Introduction to stochastic programming](https://link.springer.com/book/10.1007/978-1-4614-0237-4). Springer Science & Business Media, 2011. J.R. Birch, and F. Louveaux. 
-* [Lectures on Stochastic Programming: Modeling and Theory](https://epubs.siam.org/doi/book/10.1137/1.9780898718751). SIAM, 2009. A. Shapiro, D.Dentcheva, and A. Ruszczyński. 
-
-
-### Robust Optimization:
-* [Robust optimization](https://press.princeton.edu/titles/9099.html) and [here](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxyb2J1c3RvcHRpbWl6YXRpb258Z3g6N2NkNmUwZWZhMTliYjlhMw). Princeton University Press, 2009. A. Ben-Tal, L. El Ghaoui, and A. Nemirovski. 
-* [Robust Discrete Optimization and Its Applications](https://www.springer.com/gp/book/9780792342915). Springer, 1997. P. Kouvelis, and G. Yu. 
-
-
-### Transportation Problems
-* [Computational Optimal Transport](https://arxiv.org/pdf/1803.00567.pdf), now Foundations and Trends in Machine Learning, 2019. Very advanced and theoretical. Shows how to formulate and calculate such things as Wasserstein distance as computational optimal transport problems. This is not an Intro to OR Transportation Problem book. G. Peyré, M. Cuturi
-
-
-### Vehicle Routing Problems
-* [Vehicle Routing: Problems, Methods, and Applications](https://epubs.siam.org/doi/book/10.1137/1.9781611973594), Second Edition SIAM, 2014. Paolo Toth and Daniele Vigo 
-
-## Probability & Statistics
-
-* [Think Stats](https://www.greenteapress.com/thinkstats/) - Book + Python Code
-* [From Algorithms to Z-Scores](http://heather.cs.ucdavis.edu/probstatbook) - Book
-* [The Art of R Programming](http://heather.cs.ucdavis.edu/~matloff/132/NSPpart.pdf) - Book (Not Finished)
-* [Introduction to statistical thought](https://people.math.umass.edu/~lavine/Book/book.pdf)
-* [Basic Probability Theory](https://www.math.uiuc.edu/~r-ash/BPT/BPT.pdf)
-* [Introduction to probability](https://math.dartmouth.edu/~prob/prob/prob.pdf) - By Dartmouth College
-* [Probability & Statistics Cookbook](http://statistics.zone/)
-* [Introduction to Probability](http://athenasc.com/probbook.html) -  Book and course by MIT
-* [The Elements of Statistical Learning: Data Mining, Inference, and Prediction.](https://web.stanford.edu/~hastie/ElemStatLearn/) - Book
-* [An Introduction to Statistical Learning with Applications in R](https://www-bcf.usc.edu/~gareth/ISL/) - Book
-* [Introduction to Probability and Statistics Using R](http://ipsur.r-forge.r-project.org/book/download/IPSUR.pdf) - Book
-* [Advanced R Programming](http://adv-r.had.co.nz) - Book
-* [Practical Regression and Anova using R](https://cran.r-project.org/doc/contrib/Faraway-PRA.pdf) - Book
-* [R practicals](http://www.columbia.edu/~cjd11/charles_dimaggio/DIRE/resources/R/practicalsBookNoAns.pdf) - Book
-* [The R Inferno](https://www.burns-stat.com/pages/Tutor/R_inferno.pdf) - Book
-* [Probability Theory: The Logic of Science](https://bayes.wustl.edu/etj/prob/book.pdf) - By Jaynes
-
-## Linear Algebra
-
-* [The Matrix Cookbook](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf)
-* [Linear Algebra by Shilov](https://cosmathclub.files.wordpress.com/2014/10/georgi-shilov-linear-algebra4.pdf)
-* [Linear Algebra Done Wrong](https://www.math.brown.edu/~treil/papers/LADW/LADW.html)
-* [Linear Algebra, Theory, and Applications](https://math.byu.edu/~klkuttle/Linearalgebra.pdf)
-* [Convex Optimization](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf)
-* [Applied Numerical Computing](https://www.seas.ucla.edu/~vandenbe/ee133a.html)
-
-## Calculus
-
-* [Calculus Made Easy](https://github.com/lahorekid/Calculus/blob/master/Calculus%20Made%20Easy.pdf)
-* [calculus by ron larson](https://www.spps.org/cms/lib/MN01910242/Centricity/Domain/860/%20CalculusTextbook.pdf)
-
-
-
-## Machine Learning / Data Mining
-
-* For an up to date curated list of Machine Learning and Data Mining Books see [awesome machine learning](https://github.com/josephmisiti/awesome-machine-learning/blob/master/books.md)
+- [Applied Mathematical Programming](http://web.mit.edu/15.053/www/AMP.htm) - Legal MIT-hosted text by Bradley, Hax, and Magnanti.
+- [Convex Optimization](https://web.stanford.edu/~boyd/cvxbook/) - Legal open book by Boyd and Vandenberghe.
+- [Design of Approximation Algorithms](https://www.designofapproxalgs.com/) - Legal open book by Williamson and Shmoys.
+- [Essentials of Metaheuristics](https://cs.gmu.edu/~sean/book/metaheuristics/) - Legal open book by Sean Luke.
+- [Mathematical Programming and Operations Research](https://github.com/open-optimization/open-optimization-or-book) - Open optimization and OR book with Python and Julia examples.
+- [MOSEK Modeling Cookbook](https://docs.mosek.com/modeling-cookbook/index.html) - Legal online modeling guide.
+- [Optimization Algorithms](https://algorithmsbook.com/optimization/) - Open online materials for Kochenderfer and Wheeler.
